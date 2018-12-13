@@ -1,0 +1,9 @@
+﻿<Window x:Class="sghr.ToolWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="sghr" Height="52" Width="271" ResizeMode="NoResize" WindowStyle="ToolWindow" Name="SghrFrame" FontSize="12"
+    Closing="WindowClosing" Visibility="Visible">
+    <Grid Name="SghrGrid" Loaded="GridLoaded" Height="Auto">
+        <ComboBox Name="TaskSelector" FontSize="12" SelectionChanged="TaskSelectorChanged" VerticalAlignment="Center" />
+    </Grid>
+</Window>
